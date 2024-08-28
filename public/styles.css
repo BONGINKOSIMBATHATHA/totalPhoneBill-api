@@ -1,0 +1,83 @@
+body{
+    background-color: wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+
+
+
+
+/* Custom Styles */
+.container {
+    margin-top: 2rem;
+}
+
+.error {
+    display: block;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+
+
+/* styles.css */
+
+/* Table border styles */
+table.highlight {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.highlight th, table.highlight td {
+    border: 3px solid black; /* Bold border */
+    padding: 10px;
+    text-align: left;
+}
+
+table.highlight th {
+    background-color: #f2f2f2;
+}
+
+table.highlight tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Spinning wheel styles */
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f3f3f3; /* Light grey */
+    border-top: 5px solid #3498db; /* Blue color */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+/* Keyframes for spinning animation */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Spinner color variations */
+.spinner.red { border-top-color: #e74c3c; }
+.spinner.green { border-top-color: #2ecc71; }
+.spinner.orange { border-top-color: #e67e22; }
+
+
+
+.hero-section {
+    background: #00796b;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+}
